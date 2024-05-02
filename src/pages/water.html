@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .vapour{
+            position: relative;
+            display: flex;
+            z-index: 1;
+            padding: 0 20px;
+        }
+        .vapour span{
+            position: relative;
+            bottom: 50px;
+            display: block;
+            margin:0 2px 50px;
+            min-width: 8px;
+            height: 120px;
+            background: lightblue;
+            border-radius: 50%;
+            animation: animate 5s linear infinite;
+            opacity: 0;
+            filter: blur(8px);
+            animation-delay:calc(var(--i)* -0.5s) ;
+        }
+        @keyframes animate {
+            0%{
+                transform: translateY(0) scaleX(1);
+                opacity: 0;
+            }
+            15%{
+                opacity: 1;
+            }
+            50%{
+                transform: translateY(-150px) scaleX(5);
+            }
+            95%{
+                opacity: 0;
+            }
+            100%{
+                transform: translateY(-300px) scaleX(10);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="vapour">
+        <span style="--i:1;"></span>
+        <span style="--i:3;"></span>
+        <span style="--i:16;"></span>
+        <span style="--i:5;"></span>
+        <span style="--i:13;"></span>
+        <span style="--i:20;"></span>
+        <span style="--i:6;"></span>
+        <span style="--i:7;"></span>
+        <span style="--i:10;"></span>
+        <span style="--i:8;"></span>
+        <span style="--i:17;"></span>
+        <span style="--i:11;"></span>
+        <span style="--i:12;"></span>
+        <span style="--i:14;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:9;"></span>
+        <span style="--i:15;"></span>
+        <span style="--i:4;"></span>
+        <span style="--i:19;"></span>
+    </div>
+    <!-- <div class="content">
+        <h2>Water</h2>
+        <h2>Water</h2>
+    </div> -->
+
+</body>
+</html>

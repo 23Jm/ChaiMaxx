@@ -1,0 +1,108 @@
+.franchise-page header{
+     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../utils/images/contact-page-img.jpg);
+     height:30vh;
+}
+ul li{
+     list-style:none;
+}
+.form-bg{
+     background-color: #efd133;
+}
+
+.bo-green{
+     border: 2px solid green;
+     border-radius: 20px;
+     line-height:1;
+}
+#bo{
+     border: 2px solid black;
+}
+#bo img{
+      height: 200px;
+     width: 200px;
+}
+.bo-green img{
+     height: 200px;
+     width: 200px;
+}
+.bo-green button{
+     padding: 6px;
+     font-size: 10px;
+}
+.bo-blue{
+     border: 2px solid blue;
+     border-radius: 20px;
+     line-height: 1;
+}
+.bo-blue button{
+     padding: 6px;
+     font-size: 10px;
+}
+.bo-blue img{
+      height: 200px;
+     width: 200px;
+}
+.bo-yellow{
+     border: 2px solid #efd133;
+     border-radius: 20px;
+     line-height: 1;
+}
+.bo-yellow img{
+     height: 200px;
+     width: 200px;
+}
+.bo-yellow button{
+     padding: 6px;
+     font-size: 10px;
+}
+p{
+     line-height: 30px;
+}
+.p2{
+     line-height: 40px;
+     max-width: 500px;
+}
+.franchise-form{
+     width: 100%;
+     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../utils/images/about-page-img.jpg);
+}
+.ribbon-1 {
+  width: 80px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px;
+  right: -10px;
+  top: -200px;
+  text-align: center;
+  border-radius: 25px;
+  transform: rotate(20deg);
+  background-color: green;
+  color: white;
+}
+.ribbon-2 {
+ width: 80px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px;
+  right: -10px;
+  top: -200px;
+  text-align: center;
+  border-radius: 25px;
+  transform: rotate(20deg);
+  background-color: blue;
+  color: white;
+}
+
+.ribbon-3 {
+  width: 80px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px;
+  right: -10px;
+  top: -200px;
+  text-align: center;
+  border-radius: 25px;
+  transform: rotate(20deg);
+  background-color: #efd133;
+  color: white;
+}

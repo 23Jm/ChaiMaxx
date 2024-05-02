@@ -1,0 +1,29 @@
+.about-page header{
+     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../utils/images/about-page-img.jpg);
+     height:30vh;
+}
+.aboutImg{
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#aboutUs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mv-icon{
+     font-size: 60px;
+    color:#efd133;
+}
+#Bg-Yellow{
+   border:2px solid #efd133;
+   color: black;
+   border-radius: 20px;
+}
+#Bg-Yellow:hover{
+   background-color: #efd133;
+   transition: all ease-in-out 0.5s ;
+   .mv-icon{
+    color: white;
+   }
+}
+

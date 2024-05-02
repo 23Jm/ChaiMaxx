@@ -1,0 +1,9 @@
+.contact-page header{
+     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../utils/images/contact-page-img.jpg);
+     height:30vh;
+}
+.form-bg{
+  background-color: #f8df89;
+  padding: 10px;
+  border-radius: 20px;
+}

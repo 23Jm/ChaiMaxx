@@ -1,0 +1,8 @@
+.terms-page header{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../utils/images/restaurant-mural-wallpaper_52683-47493.jpg);
+  height:30vh;
+}
+.terms-page p{
+    line-height: 50px;
+    font-size: 14px;
+}
